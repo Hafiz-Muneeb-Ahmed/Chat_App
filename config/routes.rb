@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   #get 'user/list', to: 'user#index'
   #Resource Routing
   resources :user
+  resources :client
 end
